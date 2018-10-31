@@ -11,4 +11,23 @@ public class Reporte {
     private long id;
     @Column(name = "idsesion")
     private long idSesion;
+
+    public Reporte() {
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public long getIdSesion() {
+        return idSesion;
+    }
+
+    public void setIdSesion(long idSesion) {
+        this.idSesion = idSesion;
+    }
 }
